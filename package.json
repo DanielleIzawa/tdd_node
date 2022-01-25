@@ -6,8 +6,8 @@
   "scripts": {
     "server": "node src/server/server.js",
     "test": "node tests/unit_test.test.js",
-    "test:server": "node src/tests/server_http.test.js",
-    "mocha": "./node_modules/mocha/bin/mocha test/"
+    "test:server": "node tests/server_http.test.js",
+    "mocha": "node node_modules/mocha/bin/mocha tests/"
   },
   "keywords": [],
   "author": "",
